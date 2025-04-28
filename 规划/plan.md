@@ -5,8 +5,9 @@
    - 高级树结构：字典树(Trie)、线段树、树状数组(BIT)，KD Tree（已学）
 2. **图论基础**
    - 图的表示：邻接矩阵、邻接表
-   - 图的遍历：DFS、BFS
-   - 最短路径：Dijkstra、Bellman-Ford、Floyd
+   - 图的遍历：DFS、BFS(已完成)
+   - 最短路径：Dijkstra(已完成)、Bellman-Ford、Floyd
+   - KMP(已学)
 3. **并查集（Disjoint Set/Union-Find）**
    - 基本操作：查找、合并
    - 路径压缩、按秩合并优化

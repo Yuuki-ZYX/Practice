@@ -106,7 +106,7 @@ std::vector<int> KMPSearch(const std::string &text, const std::string &pattern)
         if (j == m)
         {
             // 找到一个完整匹配
-            results.push_back(i - j); // 记录匹配的起始位置
+            results.push_back(i - m); // 记录匹配的起始位置
             // 继续搜索下一个可能的匹配
             // 利用 lps 数组移动模式串，避免从头开始比较
             j = lps[j - 1];
